@@ -65,7 +65,7 @@ header a {
 
 .header p {
   color: #344563;
-  font-family: Poppins;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +100,7 @@ header a {
 }
 
 .let-connect {
-  font-family: Poppins;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
