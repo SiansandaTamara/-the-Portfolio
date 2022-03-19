@@ -4,6 +4,9 @@
 
 > This a personal portfolio project designed using figma template for good user interface design
 
+# WORKFLOW SCREENSHOT
+![screenshot](mobile.png)
+
 ## Built With
 - HTML
 - CSS
