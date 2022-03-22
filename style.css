@@ -160,8 +160,8 @@ li {
 } */
 
 .language1-inline {
-  border: red solid 2px;
-  display: inline-block;
+  border:re
+  display: inline;
   float: left;
 }
 
