@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -12,8 +12,12 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
+}
+
+li {
+  list-style: none;
 }
 
 .white {
@@ -87,7 +91,7 @@ body {
 }
 
 .first-section {
-  background-image: url("./images/background.png");
+  background-image: url('./images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -136,7 +140,7 @@ body {
 }
 
 .card-detail ::after {
-  content: "\00b7";
+  content: '\00b7';
   font-size: 1.5em;
 }
 
@@ -144,7 +148,7 @@ body {
   content: none;
 }
 
-.langu {
+/* .langu {
   background-color: #ebebff;
   padding: 10px;
   color: #4472e7;
@@ -153,6 +157,12 @@ body {
   font-family: poppins, sans-serif;
   display: inline-block;
   margin-left: 10px;
+} */
+
+.language1-inline {
+  border: red solid 2px;
+  display: inline-block;
+  float: left;
 }
 
 .circle {
