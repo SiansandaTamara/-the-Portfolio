@@ -346,3 +346,80 @@ a .btn-two {
   padding-left: 15px;
   font-style: normal;
 }
+
+.contact-section {
+  background: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background: #6070ff;
+  background-image: url(./images/contact-shapesm.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid white;
+  border-top-left-radius: 110px;
+  padding-bottom: 48px;
+}
+
+.con-title {
+  color: #fcfcfc;
+  justify-content: center;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 40px;
+  font-family: Poppins, sans-serif;
+  margin: 150px auto 12px;
+}
+
+.con-paragraph {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 10px 50px;
+}
+
+.con-form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  gap: 20px;
+}
+
+.form-text {
+  border: 1px solid white;
+  border-radius: 8px;
+  height: 48px;
+  padding: 15px;
+  font-family: Poppins, sans-serif;
+}
+
+.con-but {
+  justify-content: start;
+  width: 140px;
+  height: 48px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #4472e7;
+}
+
+.message {
+  height: 170px;
+  border-radius: 8px;
+}
+
+.icon-section {
+  position: relative;
+  bottom: 30%;
+}
