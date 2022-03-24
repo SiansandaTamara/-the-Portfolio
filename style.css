@@ -14,6 +14,45 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
+}button:hover {
+  background: #7066f8;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+button:hover {
+  background: #7066f8;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+button:hover {
+  background: #7066f8;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:active {
+  background: #4017cc;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+button:active {
+  background: #4017cc;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+button:active {
+  background: #4017cc;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
 }
 
 .white {
@@ -30,7 +69,6 @@ body {
 .salutation {
   font-size: 40px;
   font-weight: 700;
-  width: auto;
   color: #172b4d;
   line-height: 52px;
 }
@@ -82,7 +120,6 @@ body {
 
 .paragraph1 {
   margin: 10px 0;
-  width: auto;
   margin-left: 0;
 }
 
@@ -90,7 +127,6 @@ body {
   background-image: url('./images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
   background-color: #fff;
   margin-bottom: 50px;
   padding-top: 50px;
@@ -101,7 +137,6 @@ body {
 .work-section {
   display: -ms-grid;
   display: grid;
-  width: 100%;
   gap: 40px;
   place-items: center;
   margin-bottom: 58px;
@@ -170,7 +205,6 @@ body {
   font-size: 13px;
   line-height: 16px;
   position: static;
-  width: 88px;
   padding-top: 8px;
 }
 
@@ -181,7 +215,6 @@ body {
   font-size: 13px;
   line-height: 16px;
   position: static;
-  width: 55px;
   height: 16px;
   padding-left: 0;
   padding-top: 8px;
@@ -190,7 +223,6 @@ body {
 
 p {
   position: static;
-  width: auto;
   height: auto;
   font-size: 16px;
   line-height: 24px;
@@ -272,7 +304,6 @@ a .btn-two {
 
 .section-about h1 {
   position: static;
-  width: auto;
   height: 52px;
   font-style: normal;
   font-weight: 700;
@@ -402,6 +433,7 @@ a .btn-two {
 }
 
 .form-text {
+  width: 100%;
   border: 1px solid white;
   border-radius: 8px;
   height: 48px;
