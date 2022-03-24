@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .first-section {
-  background-image: url("./images/background.png");
+  background-image: url('./images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -136,7 +136,7 @@ body {
 }
 
 .card-detail ::after {
-  content: "\00b7";
+  content: '\00b7';
   font-size: 1.5em;
 }
 
@@ -331,6 +331,7 @@ a .btn-two {
 
 .language {
   display: flex;
+  flex-direction: row;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 10px;
