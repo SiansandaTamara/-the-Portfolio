@@ -364,11 +364,13 @@ a .btn-two {
   border-top-left-radius: 110px;
   padding-bottom: 48px;
 }
+
 .contact-heading {
   text-align: center;
   width: 600px;
   margin: 0 auto;
 }
+
 .con-title {
   color: #fcfcfc;
   justify-content: center;
