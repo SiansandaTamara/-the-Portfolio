@@ -52,6 +52,10 @@ body {
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 12px;
+  animation-duration: 3s;
+  animation-name: heading;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
 }
 
 .header-primary-details {
@@ -303,13 +307,15 @@ button:disabled {
   cursor: not-allowed;
 }
 
+
+button { transition: all 0.5s ease-out; }
+
 .disk-br-about { display: none; }
 
 @media (min-width: 992px) {
   .app { padding-top: 70px; }
 
   .nav-section { padding: 25px 154px; }
-
   .mobi-menu { display: none; }
 
   .desk-menu {
@@ -331,7 +337,8 @@ button:disabled {
     padding: 302px 260px;
     padding-bottom: 255px;
   }
-
+   
+button { transition: all 0.5s ease-out; }
   .headline-primary-title {
     font-size: 48px;
     line-height: 60px;
@@ -468,3 +475,16 @@ button:disabled {
     resize: none;
   }
 }
+
+@keyframes heading {
+  from {
+    margin-left: -100%;
+    width: auto;
+  }
+
+  to {
+    margin-left: 0%;
+    width: auto;
+  }
+}
+
