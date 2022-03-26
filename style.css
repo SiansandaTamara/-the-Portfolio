@@ -280,6 +280,8 @@ body {
   border: none;
 }
 
+button { transition: all 0.5s ease-out; }
+
 button:hover {
   background: #7066f8;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -304,9 +306,6 @@ button:disabled {
   color: #acb4c4;
   cursor: not-allowed;
 }
-
-
-button { transition: all 0.5s ease-out; }
 
 .disk-br-about { display: none; }
 
@@ -335,8 +334,7 @@ button { transition: all 0.5s ease-out; }
     padding: 302px 260px;
     padding-bottom: 255px;
   }
-   
-button { transition: all 0.5s ease-out; }
+  
   .headline-primary-title {
     font-size: 48px;
     line-height: 60px;
