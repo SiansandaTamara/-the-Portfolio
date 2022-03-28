@@ -13,7 +13,8 @@
 - Figma Tempalate
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/SiansandaTamara/Portfolio)
+[Live Demo Link](https://siansandatamara.github.io/Portfolio/
+)
 
 ## Getting Started
 
