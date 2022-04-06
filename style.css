@@ -30,7 +30,7 @@
   
   .nav-section {
     display: flex;
-    padding: 24px;
+    padding: 25px;
     justify-content: space-between;
     align-items: center;
   }
