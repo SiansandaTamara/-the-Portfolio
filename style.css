@@ -6,7 +6,7 @@
   body {
     background: #e5e5e5;
     font-family: Poppins, "Courier New", Courier, monospace;
-    font-size: 14px;
+    font-size: 15px;
     color: #1a2236;
   }
   
@@ -30,7 +30,7 @@
   
   .nav-section {
     display: flex;
-    padding: 24px;
+    padding: 25px;
     justify-content: space-between;
     align-items: center;
   }
