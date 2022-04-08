@@ -5,7 +5,7 @@ const closeModalButton = document.getElementById('close-modal');
 const body = document.querySelector('body');
 const navList = document.querySelector('#nav-list');
 
-mobileNavButton.addEventListener('click',() => {
+mobileNavButton.addEventListener('click', () => {
   body.style.overflow = 'hidden';
   mobileNav.style.display = 'block';
 });
@@ -20,9 +20,7 @@ navList.onclick = () => {
   body.style.overflow = 'auto';
 };
 
-
-
-/*project section*/
+/* project section */
 
 const projects = [
   {
