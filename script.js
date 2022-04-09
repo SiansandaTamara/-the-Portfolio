@@ -284,19 +284,16 @@ const renderProjects = () => {
 
 renderProjects();
 
-
-
-
-/*form-validation*/
+/* form-validation */
 
 const form = document.getElementById('form');
 const email = document.getElementById('email');
-const lowerCaseRegex =/[A-Z]/;
+const lowerCaseRegex = /[A-Z]/;
 
-form.addEventListener('submit', (e) =>{
+form.addEventListener('submit', (e) => {
   if (lowerCaseRegex.test(email.value.trim())) {
     e.preventDefault();
     const errorMessage = document.querySelector('small');
-    errorMessage.classList.remove('hidden')
+    errorMessage.classList.remove('hidden');
   }
 });
