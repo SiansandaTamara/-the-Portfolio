@@ -317,6 +317,16 @@ button {
   transition: all 0.5s ease-out;
 }
 
+small.hidden {
+  display: none;
+}
+
+.error-message.show {
+  color: red;
+  font-size: 15px;
+}
+
+
 button:hover {
   background: #7066f8;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);

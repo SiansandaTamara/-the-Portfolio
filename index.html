@@ -204,21 +204,22 @@
           <p class="details">If you have an application you are interested in developing, a feature that you need
             built or a
             project that needs coding. I’d love to help with it </p>
-          <form action="https://formspree.io/f/xzbojpol" method="POST" class="form">
+          <form action="https://formspree.io/f/xzbojpol" method="POST" class="form" id="form">
             <ul>
               <li class="form-field">
                 <input placeholder="Full name" class="input" type="text" minlength="1" maxlength="30" name="name"
                   required>
               </li>
               <li class="form-field">
-                <input placeholder="Email" class="input" type="email" name="email" required>
+                <input placeholder="Email" class="input" id="email" type="email" name="email" required>
               </li>
               <li class="form-field">
                 <textarea placeholder="Write your message here" class="text-area" name="message" required rows="10"
                   maxlength="500"></textarea>
               </li>
               <li>
-                <button class="button" type="submit">Get In Touch</button>
+                <button class="button" type="submit">Get In Touch</button> 
+                <small class="error-message hidden show" id="error">Kindly input email in lowercase</small>
               </li>
             </ul>
           </form>
