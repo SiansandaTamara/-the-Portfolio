@@ -25,14 +25,14 @@ navList.onclick = () => {
 const projects = [
   {
     id: 1,
-    name: 'Tonic',
+    name: 'TO-DO-LIST',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
-    featuredImage: './assets/work1.png',
+      'adds list to the project.it can delete books .it can add as many books as you want ',
+    featuredImage: './assets/todolist.png',
     technologies: ['html', 'css', 'javascript'],
     stacks: ['CANOPY', 'Back End Dev', '2022'],
-    live: 'https://siansandatamara.github.io/portfolio/',
-    source: 'https://github.com/SiansandaTamara/portfolio',
+    live: 'https://siansandatamara.github.io/To-Do/dist/',
+    source: 'https://github.com/SiansandaTamara/To-Do',
   },
   {
     id: 2,
